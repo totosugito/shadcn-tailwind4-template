@@ -5,7 +5,7 @@ import { Provider } from 'react-redux'
 import store from './stores'
 import {BrowserRouter} from "react-router-dom";
 import {Toaster} from "react-hot-toast";
-import './index.css';
+import './assets/styles.css';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
